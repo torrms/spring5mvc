@@ -9,11 +9,11 @@ import org.springframework.stereotype.Service;
 import com.kit.test.comm.SearchVO;
 
 @Service
-public class boardService {
+public class boardService  {
 
 	@Autowired
 	private SqlSessionTemplate sqlSession;	
-		
+			
     public Integer selectBoardCount(SearchVO param) throws Exception {
     	int resInt=0;
     	if (sqlSession.selectOne("selectBoardCount", param) != null) {

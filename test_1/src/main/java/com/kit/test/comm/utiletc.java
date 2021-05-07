@@ -2,10 +2,15 @@ package com.kit.test.comm;
 
 import java.io.UnsupportedEncodingException;
 
+/**
+ * @author torrms
+ * 2021-05
+ * 기본 문자 관련 유틸
+ */
 public class utiletc {
     
     /**
-     * 한글 문자열 자르기 (VO에서 호출): 출처는 오래되서 ...
+     * 한글 문자열 자르기 (VO에서 호출)
      */
     public static String getShortString(String str, Integer len) {
         try {
@@ -20,7 +25,7 @@ public class utiletc {
     }
     
     /**
-     * 한글 문자열 자르기 (실제 처리): 출처는 오래되서 ...
+     * 한글 문자열 자르기 (실제 처리)
      */
     private static String strCut(String szText, int nlength) {
       String rval = szText;
