@@ -18,11 +18,11 @@
 	
 	<!-- 	운영용 -->
 <!-- 		<property name="driverClassName" value="org.mariadb.jdbc.Driver"></property> -->
-<!-- 		<property name="jdbcUrl" value="jdbc:mariadb://127.0.0.1:32771/testdb?serverTimezone=Asia/Seoul"></property>  -->
+<!-- 		<property name="jdbcUrl" value="jdbc:mariadb://127.0.0.1:32769/testdb?serverTimezone=Asia/Seoul"></property>  -->
 
 	<!--  	SQL 로그용 -->
 		<property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
-		<property name="jdbcUrl" value="jdbc:log4jdbc:mysql://127.0.0.1:32771/testdb?serverTimezone=Asia/Seoul"></property>
+		<property name="jdbcUrl" value="jdbc:log4jdbc:mysql://127.0.0.1:32769/testdb?serverTimezone=Asia/Seoul"></property>
 		 
 		<property name="username" value="test"></property> 
 		<property name="password" value="test1234"></property> 
