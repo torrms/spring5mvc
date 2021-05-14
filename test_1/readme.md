@@ -3,7 +3,6 @@
 본 샘플은  Spring 5(4) + MyBatis 3 + MariaDB (Maven) 기반으로  게시판 샘플임.
 2021-05-04 생성확인함.
 
-
 ###  board  ###
 - http://127.0.0.1:8080/boardList
 - List: 검색, 제목을 한 줄로 표시 ==> 페이징을 공통으로 
@@ -24,7 +23,9 @@
 	log4j2.xml
 		로그의 편리한 처리를 위하여 손을 보았으며 DB SQL 문의 경우 처리를 원할하게 변경함.
 	 
-### 설치 ###
+### DB ###
+DB 의 경우 접속 정보를 알맞게 변경한다.
+src > main > webapp > WEB_INF > spring > context-database.xml (알맞게 변경)
 
 먼저 다음과 같은 테이블을 생성해야 한다.
  
