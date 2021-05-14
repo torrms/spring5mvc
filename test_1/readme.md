@@ -1,5 +1,5 @@
 
-## Spring 4 + MyBatis 3 + MariaDB 기반 게시판 ##
+## Spring 5 + MyBatis 3 + MariaDB 기반 게시판 ##
 본 샘플은  Spring 5(4) + MyBatis 3 + MariaDB (Maven) 기반으로  게시판 샘플임.
 2021-05-04 생성확인함.
 
